@@ -22,24 +22,24 @@
   justify-content: center;
   max-width: 800px;
   grid-template-columns: 1fr 1fr;
-  margin: 30px;
 }
 
 .one {
   background: linear-gradient(180deg, #6542FD 0%, #322CE9 100%);
   border-radius: 10px 0 0 10px;
   box-shadow: 0px 4px 10px rgba(160, 160, 160, 0.25);
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .para {
-  display: flex;
-  justify-content: center;
   color: #B6A6FF;
   font-size: 20px;
-  margin-top: 40px;
-  height: 36px;
+  font-family: 'DM Sans';
+  
+
 }
 
 
@@ -65,7 +65,7 @@
   border: 1px solid cyan;
 }
 
-.number h1 {
+.number h2 {
   color: white;
   font-size: 50px;
   align-items: center;
@@ -86,7 +86,7 @@
   text-decoration-thickness: 2px;
 }
 
-.grate h1 {
+.grate h2 {
   color: white;
   display: flex;
   justify-content: center;
@@ -102,9 +102,6 @@
   color: #B6A6FF;
   font-size: 20px;
   text-align: center;
-  margin: 0 20px 10px 20px;
-  justify-content: center;
-  align-items: center;
 }
 
 .grate p:hover {
@@ -121,13 +118,9 @@
 }
 
 .summ {
-  text-align: center;
-  margin: 40px;
-  font-size: 25px;
-  width: 187px;
-  top: 218px;
-  line-height: 50px;
-  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .summ:hover {
@@ -142,12 +135,12 @@
   justify-content: space-around;
   background: #FFF7F5;
   border-radius: 5px;
-  margin: 15px 30px;
 }
 
-.reaction h1 {
+.reaction h2 {
   color: #FF5E69;
-  font-size: 18px;
+  font-size: 15px;  
+font-family: 'DM Sans';
 }
 
 
@@ -162,14 +155,14 @@
   justify-content: space-around;
   background: #FDFDF1;
   border-radius: 5px;
-  margin: 20px auto;
   color: #E6D287;
   border-radius: 5px;
-  margin: 15px 30px;
 }
 
-.memory h1 {
-  font-size: 18px;
+.memory h2 {
+  font-size: 15px;
+font-family: 'DM Sans';
+
 }
 
 .memory h1:hover {
@@ -188,16 +181,15 @@
   justify-content: space-around;
   background: #F2FBFA;
   border-radius: 5px;
-  height: 25px;
-  align-items: center;
-  margin: 5px 30px;
 
 }
 
-.virbal h1 {
+.virbal h2{
   color: #3DD1B6;
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
+ font-family: 'DM Sans';
+
 
 }
 
@@ -209,7 +201,6 @@
 
 .virbal p {
   margin-top: 7px;
-  height: 25px;
   width: 66px;
   top: 620px;
 }
@@ -221,14 +212,12 @@
   border-radius: 5px;
   margin: 20px auto;
   font-size: 20px;
-  align-items: center;
-  margin: 15px 30px;
 }
 
-.visual h1 {
+.visual h2{
   color: #403E7F;
   font-family: 'DM Sans';
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
 }
 
@@ -240,14 +229,11 @@
 
 .visual p {
   margin-top: 7px;
-  height: 25px;
   width: 66px;
   top: 620px;
 }
 
 .btn {
-  margin: 40px;
-  padding: 10px;
   background-color: #303C58;
   display: flex;
   justify-content: center;
@@ -298,7 +284,6 @@ img {
   color: #303C58;
   font-size: 17px;
   line-height: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .span:hover {
@@ -309,7 +294,6 @@ img {
 
 .span1 {
   font-size: 17px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #858484;
 }
 
