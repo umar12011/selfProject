@@ -31,6 +31,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 50px;
 
 }
 
@@ -38,6 +41,8 @@
   color: #B6A6FF;
   font-size: 20px;
   font-family: 'DM Sans';
+  font-size: 24px;
+  padding-bottom: 20px;
 
 }
 
@@ -53,7 +58,6 @@
   background-color: rgb(0, 55, 255);
   width: 9rem;
   padding: 2rem;
-  margin: 20px auto;
   height: 9rem;
   margin-bottom: 0;
   background: linear-gradient(180deg, #4A24CC 0%, #322CE9 100%);
@@ -87,12 +91,12 @@
 
 .grate h2 {
   color: white;
-  display: flex;
-  justify-content: center;
-  padding: 20px 0;
+  font-family: 'DM Sans';
+  font-size: 25px;
+  line-height: 46px;
 }
 
-.grate h1:hover {
+.grate h2:hover {
   text-decoration: underline;
   text-decoration-color: cyan;
 }
@@ -101,6 +105,7 @@
   color: #B6A6FF;
   font-size: 20px;
   text-align: center;
+  font-family: 'DM Sans';
 }
 
 .grate p:hover {
@@ -112,14 +117,16 @@
 .two {
   background-color: white;
   border-radius: 0 10px 10px 0;
-  box-shadow: 0px 4px 10px rgba(160, 160, 160, 0.25);
-
-}
-
-.summ {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  padding: 50px; 
+  box-shadow: 0px 4px 10px rgba(160, 160, 160, 0.25);
+  }
+
+.main-div {
+padding: 50px ;
+display: flex;
+flex-direction: column;
+gap: 15px;
 }
 
 .summ:hover {
@@ -138,12 +145,12 @@
 
 .reaction h2 {
   color: #FF5E69;
-  font-size: 15px;  
-font-family: 'DM Sans';
+  font-size: 15px;
+  font-family: 'DM Sans';
 }
 
 
-.reaction h1:hover {
+.reaction h2:hover {
   text-decoration: underline;
   text-decoration-color: skyblue;
   text-decoration-thickness: 2px;
@@ -160,11 +167,11 @@ font-family: 'DM Sans';
 
 .memory h2 {
   font-size: 15px;
-font-family: 'DM Sans';
+  font-family: 'DM Sans';
 
 }
 
-.memory h1:hover {
+.memory h2:hover {
   text-decoration: underline;
   text-decoration-color: skyblue;
   text-decoration-thickness: 2px;
@@ -183,16 +190,16 @@ font-family: 'DM Sans';
 
 }
 
-.virbal h2{
+.virbal h2 {
   color: #3DD1B6;
   font-size: 15px;
   font-style: normal;
- font-family: 'DM Sans';
+  font-family: 'DM Sans';
 
 
 }
 
-.virbal h1:hover {
+.virbal h2:hover {
   text-decoration: underline;
   text-decoration-color: skyblue;
   text-decoration-thickness: 2px;
@@ -209,18 +216,17 @@ font-family: 'DM Sans';
   justify-content: space-around;
   background: #F3F3FF;
   border-radius: 5px;
-  margin: 20px auto;
   font-size: 20px;
 }
 
-.visual h2{
+.visual h2 {
   color: #403E7F;
   font-family: 'DM Sans';
   font-size: 15px;
   font-style: normal;
 }
 
-.visual h1:hover {
+.visual h2:hover {
   text-decoration: underline;
   text-decoration-color: skyblue;
   text-decoration-thickness: 2px;
@@ -240,6 +246,10 @@ font-family: 'DM Sans';
   border-radius: 20px;
   font-size: 20px;
   cursor: pointer;
+  margin: 0 50px;
+  font-family: 'DM Sans';
+  font-size: 17px;
+  padding: 5px;
 }
 
 .btn:hover {
@@ -248,9 +258,8 @@ font-family: 'DM Sans';
 
 img {
   object-fit: contain;
-  height: 15px;
-  width: 20px;
-  align-items: center;
+  width: 14px;
+
 }
 
 .reactionimg {
@@ -281,8 +290,9 @@ img {
 
 .span {
   color: #303C58;
-  font-size: 17px;
+  font-size: 13px;
   line-height: 30px;
+  font-family: 'DM Sans';
 }
 
 .span:hover {
@@ -292,7 +302,7 @@ img {
 }
 
 .span1 {
-  font-size: 17px;
+  font-size: 13px;
   color: #858484;
 }
 
