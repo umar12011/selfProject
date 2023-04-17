@@ -23,7 +23,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.reactangle1 {
+.result__section {
   background: linear-gradient(180deg, #6542FD 0%, #322CE9 100%);
   border-radius: 10px 0 0 10px;
   box-shadow: 0px 4px 10px rgba(160, 160, 160, 0.25);
@@ -38,13 +38,13 @@
 
 }
 
-.para {
+.result__title {
   color: #B6A6FF;
   font-family: 'DM Sans';
   font-size: 24px;
 }
 
-.number {
+.result__score {
   border-radius: 50%;
   background-color: rgb(0, 55, 255);
   width: 9rem;
@@ -54,7 +54,7 @@
   background: linear-gradient(180deg, #4A24CC 0%, #322CE9 100%);
 }
 
-.number h2 {
+.result__score h2 {
   color: white;
   font-size: 50px;
   align-items: center;
@@ -63,13 +63,13 @@
 
 }
 
-.number span {
+.result__score span {
   color: white;
   display: flex;
   justify-content: center;
 }
 
-.grate h2 {
+.result__performence h2 {
   color: white;
   font-family: 'DM Sans';
   font-size: 25px;
@@ -77,29 +77,31 @@
   margin: 20px;
 }
 
-.grate p {
+.result__performence p {
   color: #B6A6FF;
   font-size: 15px;
   text-align: center;
   font-family: 'DM Sans';
 }
 
-.reactangle2 {
+.summary {
   background-color: white;
   border-radius: 0 10px 10px 0;
   align-items: center;
   padding: 50px;
+  font-family: 'DM Sans';
+  color: #303C58;
   box-shadow: 0px 4px 10px rgba(160, 160, 160, 0.25);
 }
 
-.main-div {
+.summary__div__container {
   padding: 50px 8px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.reaction {
+.summary__reaction__contante {
   display: flex;
   font-size: 20px;
   background: #FFF7F5;
@@ -109,13 +111,13 @@
   padding: 0 1rem;
 }
 
-.reaction h2 {
+.summary__reaction__contante h2 {
   color: #FF5E69;
   font-size: 15px;
   font-family: 'DM Sans';
 }
 
-.memory {
+.summary__memory__contante {
   display: flex;
   background: #FDFDF1;
   border-radius: 5px;
@@ -126,61 +128,52 @@
   padding: 0 1rem;
 }
 
-.memory h2 {
+.summary__memory__contante h2 {
   font-size: 15px;
   font-family: 'DM Sans';
 }
 
-.memory p {
-  margin-top: 7px;
-  margin-right: 5px;
-}
-
-.virbal {
+.summary__virbal__contante {
   display: flex;
   background: #F2FBFA;
   border-radius: 5px;
   justify-content: space-between;
   align-items: center;
-  padding:1px 1px 0 8px;
+  padding:0 1rem;
+  font-family: 'DM Sans';
+
 }
 
-.virbal h2 {
+.summary__virbal__contante h2 {
   color: #3DD1B6;
   font-size: 15px;
   font-style: normal;
   font-family: 'DM Sans';
 }
 
-.virbal p {
-  margin-top: 7px;
-  width: 66px;
+.summary__virbal__contante p {
   top: 620px;
 }
 
-.visual {
+.summary__visual__contante {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
   background: #F3F3FF;
   border-radius: 5px;
-  padding:1px 1px 0 8px;
+  padding:0 1rem;
   font-family: 'DM Sans';
-
-
 }
 
-.visual h2 {
+.summary__visual__contante h2 {
   color: #403E7F;
   font-family: 'DM Sans';
   font-size: 15px;
   font-style: normal;
 }
 
-.visual p {
-  margin-top: 7px;
-  width: 66px;
+.summary__visual__contante p {
   top: 620px;
 }
 
