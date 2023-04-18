@@ -21,6 +21,7 @@
   justify-content: center;
   max-width: 800px;
   grid-template-columns: 1fr 1fr;
+  margin: 15px;
 }
 
 .result__section {
@@ -74,7 +75,7 @@
   font-family: 'DM Sans';
   font-size: 25px;
   line-height: 46px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .result__performence p {
@@ -233,10 +234,34 @@ img {
   color: #858484;
 }
 
-@media (max-width:1024px) {
-  .card {
+@media(max-width:576px){
+  .card{
     display: flex;
     flex-direction: column;
   }
-
+  .result__title{
+    padding-bottom: 10px ;
+  }
 }
+
+@media(max-width:660px){
+  .summary__reaction__contante{
+  padding: 0 ;
+  }
+}
+ @media(max-width:660px){
+  .summary__memory__contante{
+    padding: 0;
+  }
+ }
+ @media(max-width:660px){
+  .summary__virbal__contante{
+    padding: 0;
+  }
+ }
+ @media(max-width:660px){
+  .summary__visual__contante{
+    padding: 0;
+
+  }
+ }
